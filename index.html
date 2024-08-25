@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Məhsul Bazası</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Məhsul Bazası</h1>
+      <div class="input-area">
+        <input type="text" id="product-name" placeholder="Məhsulun adı" />
+        <input type="number" id="product-price" placeholder="Qiyməti" />
+        <button id="add-product">Əlavə et</button>
+      </div>
+      <div id="product-list"></div>
+      <div class="summary">
+        <p>Ümumi məhsul sayı: <span id="total-count">0</span></p>
+        <p>Məhsulların toplam dəyəri: <span id="total-price">0 AZN</span></p>
+      </div>
+    </div>
+    <script src="./script/script.js"></script>
+  </body>
+</html>
